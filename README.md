@@ -5,6 +5,11 @@ This project presents an **Automated Attendance System** designed for schools an
 ## Project Overview
 Manual attendance processes are inefficient, time-consuming, and susceptible to errors. This project aims to overcome these challenges by implementing an automated attendance solution. Using face detection and OCR technologies, the system detects student faces and extracts roll numbers from stickers affixed to the left side of their faces, marking attendance accurately and efficiently.
 
+##Project Paper and Report
+   ```bash
+      Paper : https://doi.org/10.33564/IJEAST.2024.v09i04.011
+      Report : https://drive.google.com/file/d/14EC9RtsSFbBoCKLE9MXoKaMuaxvY7Mqt/view?usp=drive_link
+   ```
 ## Features
 - **Automatic Face Detection**: Detects student faces in real-time or from provided images using a custom-trained YOLO model.
 - **OCR for Roll Number Extraction**: Extracts roll numbers from stickers on the left side of students' faces using EasyOCR.
@@ -15,10 +20,8 @@ Manual attendance processes are inefficient, time-consuming, and susceptible to 
 ## Project Structure
 The project is organized as follows:
 - `Attendance_Process.py` - Main script for the attendance system
-- - `APP.py` - Graphical user interface script for the attendance system
-- `yolo/` - YOLO model configuration and weights
-- `excel_utils.py` - Script for handling Excel file operations
-- `gui/` - GUI components built using customtkitner
+- `APP.py` - Graphical user interface script built using customtkinter
+- `model/` - YOLO model configuration and weights
 - `readme.md` - Project documentation
 
 ## Workflow
