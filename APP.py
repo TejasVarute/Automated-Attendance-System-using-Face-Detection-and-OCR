@@ -5,7 +5,7 @@ import threading
 import numpy as np
 import customtkinter
 import openpyxl as op
-from Attendance_System import *
+from Attendance_Process import *
 from tkinter import filedialog
 from tkinter import messagebox
 
